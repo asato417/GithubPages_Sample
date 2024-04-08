@@ -1,0 +1,45 @@
+/****** 全体 ******/
+body{
+    background-image: url(images/bg_Argyle.jpg);    /* 背景を画像に変更 */
+}
+
+/****** index.html ******/
+.box_a{ 
+    margin: auto;       /* ページ内で中央寄せ */
+    text-align: center; /* ブロック内で中央寄せ */
+}
+
+/****** curry.html ******/
+/* カレーライス画像 */
+.curry-img{
+    /* 中央寄せ */
+    display: block; /* ブロックボックス要素に変更 */
+    margin: auto;   /* 中央寄せ */
+    /* 枠線の設定 */
+    border-style: double;
+    border-color: orange;  
+    border-width: 10px;
+}
+
+/* 材料一覧(表) */
+table{
+    /* 表全体 */
+    background-color: lightyellow;
+    border-color: orange;
+    border-width: 2px;
+}
+caption{
+    /* 見出し */
+    font-size: large;
+    font-weight: 600;
+    color: orange;
+}
+td{
+    /* データセル */
+    width: 120px;
+}
+
+/* ワンポイント */
+.one-point{
+    display: flex;  /* 画像と文章を横並びに */
+}
